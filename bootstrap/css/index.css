@@ -1,0 +1,189 @@
+h1, h2, h3 , h4, h5, h6 {
+  font-family: 'Anton', sans-serif;
+}
+
+.li{
+  font-family: 'Anton', sans-serif;
+}
+
+h3 {
+  border-bottom: 3px solid #f3d8a9;
+}
+
+p {
+  font-family: 'Times New Roman', sans-serif;
+}
+
+.customNav {
+  position: fixed;
+  width: 100%;
+  background: url("../images/plane.jpg");
+  background-color: transparent !important;
+  background-size: cover;
+  z-index: 10;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+.navbar-brand img {
+  padding-right: 15px;
+  width: 70px;
+}
+.nav-item {
+  margin: 0px 20px;
+}
+
+.dropdown-menu {
+  background: url("../images/6_card.png");
+  background-color: transparent !important;
+  background-size: cover;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #1b1816;
+    text-decoration: none;
+    background: #9c4105;
+}
+
+.customNav a {
+  color: rgb(85, 55, 3) !important;
+  font-size: medium !important;
+}
+.navCTA {
+  font-size: 15px;
+}
+
+.jumbotron {
+  background-image: url(../images/my_photo.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.jumboCopy {
+  width: 70%;
+  min-width: 500px;
+  max-width: 700px;
+  color: white;
+  text-align: center;
+}
+
+.dropdown-menu {
+  right: -50px;
+}
+footer {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f5f5f5;
+  margin-top: 50px;
+}
+
+.content{
+  padding: 50px;
+}
+.sectionHeading{
+  text-align: center;
+}
+
+.work{
+  padding: 0px 30px 30px 30px;
+  border: 3px solid #c88003;
+}
+
+
+.bot{
+  background-color: #9c4105 !important;
+  border-color: #1b1816;
+  justify-content: right !important ;
+}
+.botnav{
+  background:#e89862 !important;
+}
+.boto{
+  text-align: center;
+}
+
+.valueProp{
+  margin: 15px 0;
+  margin-bottom: 15px;
+}
+
+.sideAccent{
+  background-color: #1b1816;
+  width: 15px;
+}
+
+.imageContainer{
+  padding: 50px;
+}
+
+.imageContainer img{
+  width: 100%;
+}
+.cardContainer {
+  margin-top: 20px;
+}
+.card {
+  margin: 0 auto;
+}
+
+
+.card-body {
+  color: #1b1816 ! important;
+ 
+}
+
+.aboutme{
+  border: 3px solid #c88003;
+}
+
+.media{
+  height: 70px;
+  padding: -40px;
+  display: flex;
+  align-items: top;
+  justify-content: space-evenly;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f3d8a9;
+}
+
+.media a{
+  color: #9c4105;
+}
+
+.emailContain{
+  background-image: url(../images/plane.jpg);
+  background-size: cover;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+}
+
+
+.emailContain:hover{
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  box-shadow: 0 1px 4px rgb(0, 0, 0, 0.1), 0 0 40px rgb(0, 0, 0, 0.1);
+  cursor:pointer;
+}
+
+form{
+  width: 500px;
+  margin: 35px auto;
+  padding: 45px;
+  border: 2px solid #f2f2f2;
+  -webkit-box-shadow: 0 1px 4px rgb(0, 0, 0, 0.3), 0 0 40px rgb(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgb(0, 0, 0, 0.3), 0 0 40px rgb(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgb(0, 0, 0, 0.1), 0 0 40px rgb(0, 0, 0, 0.1);
+  background-color: white;
+  text-align: center;
+} 
+
